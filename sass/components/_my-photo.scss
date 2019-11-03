@@ -1,0 +1,19 @@
+.my-photo {
+    display: block;
+    width: 40rem; 
+    height: 40rem; 
+    border: 1px solid $color-grey-dark-2;
+    border-radius: 50%;  
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);  
+    margin-left: 4rem;
+    margin-right: 20rem; 
+    overflow: hidden;
+    
+    img {
+        transition: all 0.3s ease-out; 
+    }
+
+    &:hover img {
+        transform: scale(1.05); 
+    }
+}

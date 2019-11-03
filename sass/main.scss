@@ -1,0 +1,17 @@
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+  
+@import "components/card";  
+@import "components/feature-box";  
+@import "components/my-photo";
+@import "components/project"; 
+@import "components/skills"; 
+@import "components/video";       
+
+@import "layout/grid"; 
+
+@import "pages/home";
+  

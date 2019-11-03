@@ -1,0 +1,104 @@
+.project {
+    width: 40rem;
+    height: 25rem;
+    display: block; 
+    position: relative;
+    margin: 0 auto;
+    border-radius: 1rem;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
+    cursor: pointer; 
+
+    &--budgetapp {
+        background-image: linear-gradient(rgba($color-grey-light, 0.5), rgba($color-grey-dark-2, 0.5)),url(/img/budgetapp.jpg);
+    }
+
+    &--portfolio { 
+        background-image: linear-gradient(rgba($color-grey-light, 0.2), rgba($color-grey-dark-2, 0.2)),url(/img/portfolio.JPG);
+    }
+     
+    &__overlay {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 1rem; 
+        background: rgba($color-gradient-blue, 0.9);   
+        color: $color-grey-light; 
+        transition: all 0.3s;  
+        opacity: 0;
+
+        padding: 2rem;
+        letter-spacing: 3px;
+    }
+
+    &__title {
+        color: $color-secondary;
+        font-size: 3.5rem; 
+        line-height: 4rem;
+        letter-spacing: 0.3rem;
+        transform: translateY(4rem);
+        transition: all 0.5s;
+    }
+
+    &__description {
+        font-size: 1.3rem;
+        text-align: justify;
+        opacity: 0;
+        transform: translateY(4rem);
+        transition: all 0.5s; 
+    }
+
+    &__button {
+        &:link,
+        &:visited {
+            width: 15rem;
+            color: $color-grey-light;
+            padding: 0.8rem 2rem;     
+            border: 0.16rem solid $color-secondary;
+            border-radius: 2rem;
+            font-size: 1.4rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-decoration: none;
+            letter-spacing: 3px;
+            transition: background-color 0.2s, border 0.2s, color 0.2s;
+            text-align: center;
+            transition: all 0.2s;
+            opacity: 0;
+            transform: translateY(6rem);
+            transition: all 0.5s;  
+        }
+
+        &:hover,
+        &:active {
+            color: $color-gradient-blue;
+            background-color: $color-secondary;
+        }
+    }
+
+    &:hover {
+        .project__overlay {
+            opacity: 1;
+        }
+
+        .project__title {
+            transform: translateY(-2rem);
+        }
+
+        .project__description {
+            transform: translateY(0);
+            transition-delay: 0.2s;
+            opacity: 1;
+        }
+
+        .project__button {
+            transform: translateY(2rem);
+            transition-delay: 0.3s; 
+            opacity: 1; 
+        }
+    } 
+}

@@ -1,0 +1,62 @@
+.heading-primary {
+    font-weight: 700;
+    letter-spacing: 0.3rem;  
+    position: relative;
+
+    &--title {
+        display: block;
+        font-size: 4.5rem;
+
+        &__name {
+            color: $color-white;
+        }
+    }
+
+    &--subtitle {
+        display: block;   
+        font-size: 3.5rem; 
+    }
+}
+
+.heading-secondary {
+    display: inline-block;
+    font-weight: 700; 
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.heading-tertiary {
+    font-size: 2.4rem;
+    color: $color-grey-dark-3;
+
+    &--white {  
+        color: $color-white;
+    }  
+}
+
+.header-bar {   
+    display: block;
+    margin: 0 auto;
+    width: 12rem; 
+    height: 0.4rem; 
+    background: $color-grey-dark-3;  
+    
+    &--section-contacts {
+        background: $color-grey-light;  
+    }
+}
+ 
+.paragraph {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    text-align: justify;
+
+    &--bold {
+        font-weight: bold;
+    }
+
+    &--bigger {
+        font-size: 1.7rem;
+    }
+}
