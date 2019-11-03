@@ -115,7 +115,7 @@ body {
     backface-visibility: hidden;
     border-radius: 3px;
     overflow: hidden;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
+    box-shadow: 0 1.5rem 3.5rem rgba(0, 0, 0, 0.2); }
     .card__side--front-1, .card__side--front-2 {
       background-color: #fff; }
     .card__side--back-1 {
@@ -141,11 +141,11 @@ body {
     border-radius: 3px;
     filter: brightness(75%); }
     .card__image-1 {
-      background-image: linear-gradient(to right bottom, rgba(69, 72, 166, 0.9), rgba(14, 30, 73, 0.9)), url("https://rafaelcaeta.github.io/img/education.jpg"); }
+      background-image: linear-gradient(to right bottom, rgba(69, 72, 166, 0.9), rgba(14, 30, 73, 0.9)), url("../img/education.jpg"); }
     .card__image-2 {
-      background-image: linear-gradient(to right bottom, rgba(69, 72, 166, 0.9), rgba(14, 30, 73, 0.9)), url("https://rafaelcaeta.github.io/img/training.jpg"); }
+      background-image: linear-gradient(to right bottom, rgba(69, 72, 166, 0.9), rgba(14, 30, 73, 0.9)), url("../img/training.jpg"); }
     .card__image-3 {
-      background-image: linear-gradient(to right bottom, rgba(69, 72, 166, 0.9), rgba(14, 30, 73, 0.9)), url("https://rafaelcaeta.github.io/img/experience.jpg"); }
+      background-image: linear-gradient(to right bottom, rgba(69, 72, 166, 0.9), rgba(14, 30, 73, 0.9)), url("../img/experience.jpg"); }
   .card__container {
     display: flex;
     justify-content: center;
@@ -281,12 +281,12 @@ body {
   border-radius: 1rem;
   background-size: cover;
   background-position: center;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1.5rem 3.5rem rgba(0, 0, 0, 0.2);
   cursor: pointer; }
   .project--budgetapp {
-    background-image: linear-gradient(rgba(247, 247, 247, 0.5), rgba(153, 153, 153, 0.5)), url("https://rafaelcaeta.github.io/img/budgetapp.jpg"); }
+    background-image: linear-gradient(rgba(247, 247, 247, 0.5), rgba(153, 153, 153, 0.5)), url("../img/budgetapp.jpg"); }
   .project--portfolio {
-    background-image: linear-gradient(rgba(247, 247, 247, 0.2), rgba(153, 153, 153, 0.2)), url("https://rafaelcaeta.github.io/img/portfolio.JPG"); }
+    background-image: linear-gradient(rgba(247, 247, 247, 0.2), rgba(153, 153, 153, 0.2)), url("../img/portfolio.JPG"); }
   .project__overlay {
     width: 100%;
     height: 100%;
