@@ -11,13 +11,13 @@
     cursor: pointer; 
 
     &--budgetapp {
-        background-image: linear-gradient(rgba($color-grey-light, 0.5), rgba($color-grey-dark-2, 0.5)),url(/img/budgetapp.jpg);
+        background-image: linear-gradient(rgba($color-grey-light, 0.5), rgba($color-grey-dark-2, 0.5)),url("https://rafaelcaeta.github.io/img/budgetapp.jpg"); 
     }
 
-    &--portfolio { 
-        background-image: linear-gradient(rgba($color-grey-light, 0.2), rgba($color-grey-dark-2, 0.2)),url(/img/portfolio.JPG);
+    &--portfolio {   
+        background-image: linear-gradient(rgba($color-grey-light, 0.2), rgba($color-grey-dark-2, 0.2)),url("https://rafaelcaeta.github.io/img/portfolio.JPG");
     }
-     
+      
     &__overlay {
         width: 100%;
         height: 100%;
@@ -28,7 +28,7 @@
         border-radius: 1rem; 
         background: rgba($color-gradient-blue, 0.9);   
         color: $color-grey-light; 
-        transition: all 0.3s;  
+        transition: all 0.3s;   
         opacity: 0;
 
         padding: 2rem;
