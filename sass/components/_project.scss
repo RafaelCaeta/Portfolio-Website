@@ -11,12 +11,12 @@
     cursor: pointer; 
 
     &--budgetapp {
-        background-image: linear-gradient(rgba($color-grey-light, 0.5), rgba($color-grey-dark-2, 0.5)),url("https://rafaelcaeta.github.io/img/budgetapp.jpg"); 
+        background-image: linear-gradient(rgba($color-grey-light, 0.5), rgba($color-grey-dark-2, 0.5)),url("../img/budgetapp.jpg"); 
     }
 
     &--portfolio {   
-        background-image: linear-gradient(rgba($color-grey-light, 0.2), rgba($color-grey-dark-2, 0.2)),url("https://rafaelcaeta.github.io/img/portfolio.JPG");
-    }
+        background-image: linear-gradient(rgba($color-grey-light, 0.2), rgba($color-grey-dark-2, 0.2)),url("../img/portfolio.JPG");
+    } 
       
     &__overlay {
         width: 100%;
