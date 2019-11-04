@@ -1,4 +1,5 @@
-@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/variables"; 
 
 @import "base/base";
 @import "base/typography";
@@ -11,7 +12,9 @@
 @import "components/skills"; 
 @import "components/video";       
 
+@import "layout/footer";  
 @import "layout/grid"; 
+@import "layout/header";      
 
 @import "pages/home";
   

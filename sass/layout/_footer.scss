@@ -1,0 +1,43 @@
+.section-contacts {
+    height: 105vh;  
+    padding-top: 30vh; 
+    color: $color-grey-light; 
+    background-color: $color-grey-dark-3; 
+
+    &__links {
+        font-size: 8rem; 
+    }
+
+    &__anchor { 
+        color: inherit;
+    }
+} 
+ 
+.footer {
+    height: 15vh; 
+    background-color: $color-grey-dark-4; 
+    color: $color-grey-dark-2; 
+    border-top: 1px solid $color-grey-dark; 
+    font-size: 1.4rem;  
+    position: relative;
+    
+    &__container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__span {
+        display: inline-block;
+        color: $color-grey-light;
+        text-transform: uppercase;
+        transition: all 0.2s;  
+
+        &:hover {
+            color: $color-secondary;
+            box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
+            transform: rotate(-3deg) scale(1.1) translateY(-3px);     
+        }
+    }
+}
