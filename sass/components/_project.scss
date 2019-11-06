@@ -10,6 +10,14 @@
     box-shadow: 0 1.5rem 3.5rem rgba($color-black, 0.2);
     cursor: pointer; 
 
+    @media only screen and (max-width: 56.25em) {
+        margin-top: 5rem;
+    }
+
+    @media only screen and (max-width: 25em) {
+        width: 30rem;
+    }
+
     &--budgetapp {
         background-image: linear-gradient(rgba($color-grey-light, 0.5), rgba($color-grey-dark-2, 0.5)),url("../img/budgetapp.jpg"); 
     }

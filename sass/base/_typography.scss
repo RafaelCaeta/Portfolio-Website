@@ -1,7 +1,12 @@
 .heading-primary {
+    width: 100%;
     font-weight: 700;
     letter-spacing: 0.3rem;  
-    position: relative;
+    position: absolute;
+    top: 35%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
 
     &--title {
         display: block;
@@ -9,12 +14,20 @@
 
         &__name {
             color: $color-white;
+        }  
+
+        @include respond (tab-landscape) { 
+            font-size: 4rem;
         }
     }
 
     &--subtitle {
         display: block;   
         font-size: 3.5rem; 
+        
+        @include respond (tab-portrait) {
+            margin-bottom: 3rem;
+        }
     }
 }
 
@@ -51,6 +64,14 @@
     font-size: 1.4rem;
     margin-top: 1rem;
     text-align: justify;
+
+    @include respond (tab-portrait) {
+        font-size: 1.7rem;
+    }
+
+    @include respond (phone) {
+        font-size: 2rem;
+    }
 
     &--bold {
         font-weight: bold;

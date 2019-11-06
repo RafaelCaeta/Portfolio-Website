@@ -19,15 +19,13 @@
     ------- HEADER ----------
     **********************-->
  
-    <div class="header">
-        <div class="header__box u-center-text">
-            <h1 class="heading-primary u-margin-bottom-small">
-                <span class="heading-primary--title">Welcome! My name is <span class="heading-primary--title__name">Rafael Caetano</span>.</span>
-                <span class="heading-primary--subtitle">I am a Front-end Developer.</span> 
-            </h1>
+    <div class="header u-center-text">
+        <h1 class="heading-primary u-margin-bottom-small">
+            <span class="heading-primary--title">Welcome! My name is <span class="heading-primary--title__name">Rafael Caetano</span>.</span>
+            <span class="heading-primary--subtitle">I am a Front-end Developer.</span> 
+        </h1>     
 
-            <img src="img/main.svg">
-        </div>
+        <img class="header__logo" src="img/main.svg">    
     </div>
 
     <!--*********************
@@ -47,14 +45,14 @@
             </div> 
         </div>  
 
-        <div class="row u-margin-top-big">    
-            <div class="col-1-of-2">
+        <div class="row u-margin-top-medium">    
+            <div class="col-1-of-2 responsive--about-section">
                 <div class="my-photo">
                     <img src="img/my-photo.jpg" alt="My Photo">
                 </div>
             </div>  
             
-            <div class="col-1-of-2"> 
+            <div class="col-1-of-2 responsive--about-section"> 
                 <div class="feature-box">
                     <img class="feature-box__icon" src="img/code.svg" alt="Coding Icon"> 
 
@@ -96,7 +94,7 @@
 
         <div class="u-margin-top-small u-margin-bottom-medium">
             <div class="row">
-                <div class="col-2-of-3">
+                <div class="col-2-of-3 responsive--skills-section"> 
 
                     <!-- MAIN TECHNOLOGIES -->
 
@@ -174,11 +172,11 @@
 
                 <!-- LANGUAGES -->
 
-                <div class="col-1-of-3">
+                <div class="col-1-of-3 responsive--skills-section">
                     <div class="skills__heading"> 
                         Languages    
                     </div> 
-                    <hr>    
+                    <hr>     
                     <div class="row u-margin-top-big">
                         <figure class="col-1-of-2 skills skills__box">
                             <div class="skills__flag-box">
@@ -226,7 +224,7 @@
     <section class="section-education-experience u-padding-medium">
 
         <div class="row">   
-            <div class="col-1-of-2"> 
+            <div class="col-1-of-2 responsive--experience-section"> 
                 <div class="u-center-text u-margin-bottom-small">  
                     <h2 class="heading-secondary">   
                         Education 
@@ -335,7 +333,7 @@
 
             <!-- EXPERIENCE -->
   
-            <div class="col-1-of-2"> 
+            <div class="col-1-of-2 responsive--experience-section"> 
                 <div class="u-center-text u-margin-bottom-small">   
                     <h2 class="heading-secondary">    
                         Experience 
@@ -435,8 +433,8 @@
         </div>  
 
         <div class="row">    
-            <div class="col-1-of-2">
-                <div class="project project--budgetapp">
+            <div class="col-1-of-2 responsive--projects-section">
+                <div class="project project--budgetapp"> 
                     <div class="project__overlay">
                         <h3 class="project__title">Budget App</h3>  
                         
@@ -450,14 +448,14 @@
                 </div> 
             </div>  
              
-            <div class="col-1-of-2">
+            <div class="col-1-of-2 responsive--projects-section"> 
                 <div class="project project--portfolio">
                     <div class="project__overlay">
                         <h3 class="project__title">Portfolio Page</h3>  
                         
                         <div class="project__description">  
                             My first portfolio/presentation webpage. 
-                            Use of HTML, CSS, Sass/SCSS and GreenSock. 
+                            Use of HTML, CSS and Sass/SCSS. 
                         </div>
 
                         <a href="#" class="project__button">Visit &nbsp;<i class="fas fa-chevron-right"></i></a>

@@ -2,7 +2,15 @@
     height: 105vh;  
     padding-top: 30vh; 
     color: $color-grey-light; 
-    background-color: $color-grey-dark-3; 
+    background-color: $color-grey-dark-3;
+
+    @include respond (tab-landscape) {
+        margin-top: -18rem;
+    }
+    
+    @include respond (tab-portrait) {
+        margin-bottom: -10rem;
+    }
 
     &__links {
         font-size: 8rem; 
@@ -20,6 +28,7 @@
     border-top: 1px solid $color-grey-dark; 
     font-size: 1.4rem;  
     position: relative;
+    text-align: center;
     
     &__container {
         position: absolute;

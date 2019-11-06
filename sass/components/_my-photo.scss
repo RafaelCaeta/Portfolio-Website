@@ -8,12 +8,44 @@
     margin-left: 4rem;
     margin-right: 20rem; 
     overflow: hidden;
+    position: relative;
+
+    @include respond(laptop) {
+        margin-top: 3rem;
+    }
+
+    @media only screen and (max-width: 56.25em) { // 900px
+        margin: 0 auto;
+    }
+
+    @media only screen and (max-width: 25em) { // 400px
+        padding-bottom: -2rem;
+        transform: scale(0.8) translateY(-5rem) translateX(-2rem);  
+    }
+
+    @media only screen and (max-width: 22.44em) { // 359px
+        transform: scale(0.75) translateY(-5rem) translateX(-6rem);      
+    }
     
     img {
+        display: block;
+        margin: 0 auto;
         transition: all 0.3s ease-out; 
+
+        @include respond(big-desktop) {
+            transform: scale(1.15);  
+        }
+
+        @include respond(tab-portrait) {
+            transform: translateX(-6rem);
+        }
     }
 
     &:hover img {
         transform: scale(1.05); 
+
+        @include respond(big-desktop) {
+            transform: scale(1.20);  
+        }
     }
 }

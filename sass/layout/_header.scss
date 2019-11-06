@@ -1,7 +1,7 @@
 .header {
     height: 100vh; 
     color: $color-secondary; 
-    position: relative;
+    padding: 15rem;
     background-image: linear-gradient(
         to right bottom,
         rgba($color-primary-light, 0.9),
@@ -9,12 +9,17 @@
         url("../img/landing-page.jpg" 
         );  
     background-size: cover;
-    background-position: top;   
+    background-position: top; 
+    position: relative;  
 
-    &__box {
+    &__logo {  
         position: absolute;
-        top: 20%; 
-        left: 15%;
-        right: 15%; 
-    } 
-}  
+        top: 70%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        @media only screen and (max-width: 43.75em) { // 700px
+            height: 35%;  
+        }
+    }
+} 

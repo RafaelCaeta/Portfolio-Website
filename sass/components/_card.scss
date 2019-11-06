@@ -175,6 +175,10 @@
         flex-direction: row;
         width: 100%;
         margin-left: 4rem;  
+
+        @include respond (laptop) {
+            display: none; 
+        }
     }
 
     &__icon {
@@ -244,3 +248,7 @@
         }
     }
 }
+    
+
+
+
