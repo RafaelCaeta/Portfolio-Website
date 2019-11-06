@@ -1,10 +1,10 @@
 .card {
     perspective: 150rem;
-    -moz-perspective: 150rem;
+    -moz-perspective: 150rem; 
     position: relative;
     height: 25rem; 
 
-    &--bigger-height {
+    &--bigger-height { 
         height: 56rem; 
     }
 
@@ -15,7 +15,7 @@
         top: 0; 
         left: 0;
         width: 100%;
-        backface-visibility: hidden; 
+        backface-visibility: hidden;   
         border-radius: 3px;
         overflow: hidden;
         box-shadow: 0 1.5rem 3.5rem rgba($color-black, 0.2);  
@@ -108,6 +108,10 @@
         text-align: center;
         color: $color-white;
 
+        @include respond (tab-landscape) {
+            font-size: 4rem;
+        }
+
         &__span {
             display: block;
         }
@@ -123,6 +127,10 @@
 
     &__logo {  
         transition: all 0.4s;
+
+        @media only screen and (max-width: 25em) { // 400px
+            width: 35%;
+        }
 
         &:hover {
             transform: scale(1.15);

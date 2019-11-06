@@ -82,7 +82,11 @@ body {
       font-size: 1.7rem; } }
   @media only screen and (max-width: 37.5em) {
     .paragraph {
-      font-size: 2rem; } }
+      font-size: 1.9rem;
+      line-height: 2.8rem; } }
+  @media only screen and (max-width: 25em) {
+    .paragraph {
+      font-size: 1.8rem; } }
   .paragraph--bold {
     font-weight: bold; }
   .paragraph--bigger {
@@ -183,6 +187,9 @@ body {
     letter-spacing: 0.8rem;
     text-align: center;
     color: #fff; }
+    @media only screen and (max-width: 62.5em) {
+      .card__heading {
+        font-size: 4rem; } }
     .card__heading__span {
       display: block; }
   .card__logo-container {
@@ -193,6 +200,9 @@ body {
     height: 10rem; }
   .card__logo {
     transition: all 0.4s; }
+    @media only screen and (max-width: 25em) {
+      .card__logo {
+        width: 35%; } }
     .card__logo:hover {
       transform: scale(1.15); }
     .card__logo--smaller-width {
@@ -284,6 +294,11 @@ body {
   @media only screen and (max-width: 37.5em) {
     .feature-box {
       width: 100%; } }
+  @media only screen and (max-width: 25em) {
+    .feature-box {
+      width: 120%;
+      transform: translateX(-3.5rem);
+      margin-top: -1.5rem; } }
   .feature-box__icon {
     margin-bottom: 1rem;
     transition: all 0.8s ease-in-out; }
@@ -437,6 +452,9 @@ body {
     @media only screen and (max-width: 25em) {
       .skills__logo {
         height: 75%; } }
+  @media only screen and (max-width: 50em) {
+    .skills__languages-container {
+      margin-top: -6rem; } }
   .skills__flag-box {
     display: block;
     position: relative;
@@ -556,7 +574,12 @@ body {
     width: 100% !important;
     margin-bottom: 8rem; } }
 
-@media only screen and (max-width: 62.5em) {
+@media only screen and (max-width: 50em) {
+  .responsive--education-section {
+    width: 100% !important;
+    margin-top: 5rem; } }
+
+@media only screen and (max-width: 50em) {
   .responsive--experience-section {
     width: 100% !important; } }
 
@@ -576,12 +599,24 @@ body {
     @media only screen and (max-width: 43.75em) {
       .header__logo {
         height: 35%; } }
+    @media only screen and (max-width: 37.5em) {
+      .header__logo {
+        height: 30%; } }
+    @media only screen and (max-width: 25em) {
+      .header__logo {
+        height: 25%; } }
 
 .section-about {
   background-color: #f7f7f7; }
+  @media only screen and (max-width: 56.25em) {
+    .section-about {
+      margin-bottom: -5rem; } }
 
 .section-skills {
   background-color: #fff; }
+  @media only screen and (max-width: 50em) {
+    .section-skills {
+      margin-bottom: -6rem; } }
 
 .section-education-experience {
   background-color: #f7f7f7; }

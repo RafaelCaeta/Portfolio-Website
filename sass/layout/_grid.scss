@@ -57,8 +57,15 @@
         }
     }
 
+    &--education-section {
+        @include respond (tab-portrait) {
+            width: 100% !important;
+            margin-top: 5rem;
+        }
+    }
+
     &--experience-section {
-        @include respond (tab-landscape) {
+        @include respond (tab-portrait) {
             width: 100% !important;
         }
     }

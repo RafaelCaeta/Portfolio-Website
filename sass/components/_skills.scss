@@ -25,6 +25,12 @@
         }
     } 
 
+    &__languages-container {
+        @include respond (tab-portrait) {
+            margin-top: -6rem;
+        } 
+    }
+
     &__flag-box {
         display: block;  
         position: relative; 

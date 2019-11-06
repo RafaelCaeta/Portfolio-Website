@@ -1,9 +1,17 @@
 .section-about {
     background-color: $color-grey-light; 
+
+    @media only screen and (max-width: 56.25em) { // 900px
+        margin-bottom: -5rem;
+    }
 } 
 
 .section-skills {
     background-color: $color-white; 
+
+    @include respond (tab-portrait) {
+        margin-bottom: -6rem;
+    }
 }
  
 .section-education-experience {

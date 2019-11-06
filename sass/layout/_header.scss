@@ -21,5 +21,13 @@
         @media only screen and (max-width: 43.75em) { // 700px
             height: 35%;  
         }
+
+        @include respond (phone) {
+            height: 30%;
+        }
+
+        @media only screen and (max-width: 25em) { // 400px
+            height: 25%;  
+        }
     }
 } 

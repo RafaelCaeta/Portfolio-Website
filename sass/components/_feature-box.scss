@@ -26,6 +26,12 @@
         width: 100%; 
     }
 
+    @media only screen and (max-width: 25em) { // 400px
+        width: 120%;
+        transform: translateX(-3.5rem);   
+        margin-top: -1.5rem;
+    }
+
     &__icon {
         margin-bottom: 1rem;
         transition: all 0.8s ease-in-out;  
